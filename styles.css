@@ -1,75 +1,68 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
-html{
-    background-color: #212121;
-    color: #ffffff;
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url("./images/background.jpg");
+html {
+  background-color: #212121;
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+  background-image: url("./images/background.jpg");
 }
 
-
-body{
-    
-    margin: 40px 20px 20px 10px;
-
+body {
+  margin: 40px 20px 20px 10px;
 }
 
-.content{
-    /*background-image: url("https://cdn.wallpapersafari.com/55/73/ghY4rc.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;*/
-
-    /*border-width: 4px;
-    border-color: cadetblue;
-    border-style: solid;*/
-    padding: 5px;
-    
+.content {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.innerContent{
-    border: 2px solid #007876;
-    border-radius: 10px;
-    min-width: 250px;
-    padding: 10px;
-    margin: 5px;
-    position: relative;
+.innerContent {
+  border: 2px solid #007876;
+  border-radius: 10px;
+  min-width: 250px;
+  max-width: 450px;
+  padding: 10px;
+  margin: 5px;
+  position: relative;
 }
 
-.flexContainer{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
+.flexContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.planetImg{
-    position: absolute;
-    top: -20px;
-    right: -20px;
-    width: 60px;
-
+.planetImg {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 60px;
 }
 
-h2{
-    font-size: 20px;
-    margin-bottom: 10px;
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-p{
-    font-size: 12px;
+p {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 15px;
 }
 
-a{
-    border: 1px solid #007876;
-    border-radius: 6px;
-    font-size: 10px;
-    text-decoration: none;
-    color: #02a8a6;
-    padding: 4px;
+a {
+  border: 1px solid #007876;
+  border-radius: 6px;
+  font-size: 10px;
+  text-decoration: none;
+  color: #02a8a6;
+  padding: 4px;
 }
